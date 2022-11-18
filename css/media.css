@@ -1,0 +1,166 @@
+/* Media query */
+/* for small divices */
+@media(max-width: 576px){
+    .row{
+        margin: 0;
+    }
+    .d-sm-none{
+        display: none;
+    }
+    .header__nav-logo{
+        margin-top: 20px;
+    }
+    .header__title{
+        font-size: 42px;
+        margin-top: 120px;
+    }
+    .header__price{
+        padding: 20px 60;
+        font-size: 50px;
+    }
+    .main__nav{
+        padding: 30px 0;
+        row-gap: 10px;
+    }
+    .main__nav li{
+        margin-right: 30px;
+    }
+    .main__nav li a{
+        font-size: 18px;
+    }
+    .col-sm-12{
+        width: var(--col-12);
+        padding: 0 15px;
+    }
+    .burger__card-img{
+        object-fit: cover;
+    }
+    .recept h2{
+        margin: 40px 0;
+        font-size: 30px;
+    }
+    .recept p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .maps h2{
+        padding: 40px 0;
+        font-size: 30px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .footer__nav ul{
+        row-gap: 10px;
+    }
+    footer .footer__info .phone{
+        font-size: 18px;
+    }
+}
+/* for mobile phone */
+
+@media(min-width: 576px) and (max-width: 768px){
+    .row{
+        margin: 0;
+    }
+    .d-sm-none{
+        display: none;
+    }
+    .header__nav-logo{
+        margin-top: 20px;
+    }
+    .header__title{
+        font-size: 42px;
+        margin-top: 120px;
+    }
+    .header__price{
+        padding: 20px 60;
+        font-size: 50px;
+    }
+    .main__nav{
+        padding: 30px 0;
+        row-gap: 10px;
+    }
+    .main__nav li{
+        margin-right: 30px;
+    }
+    .main__nav li a{
+        font-size: 18px;
+    }
+    .col-sm-12{
+        width: var(--col-12);
+        padding: 0 15px;
+    }
+    .burger__card-img{
+        object-fit: cover;
+    }
+    .recept h2{
+        margin: 40px 0;
+        font-size: 30px;
+    }
+    .recept p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .maps h2{
+        padding: 40px 0;
+        font-size: 30px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .footer__nav ul{
+        row-gap: 10px;
+    }
+    footer .footer__info .phone{
+        font-size: 18px;
+    }
+}
+
+/* for tab (planshet) */
+
+@media(min-width: 768px) and (max-width: 992px){
+    .row{
+        margin: 0;
+    }
+    .nav__list__link{
+        padding: 32px 20px 25px;
+        font-size: 18px;
+    }
+    .nav__list__link.active{
+        padding: 29px 11px 25px;
+    }
+    .header__title{
+        font-size: 50px;
+    }
+    .main__nav{
+        padding: 20px 0;
+    }
+    .col-md-6{
+        width: var(--col-6);
+        padding: 0 15px;
+    }
+    .footer__nav ul{
+        row-gap: 10px;
+    }
+}
+
+/* for laptop*/
+
+@media(min-width: 992px) and (max-width: 1200px){
+    .row{
+        margin: 0;
+    }
+    .main__nav{
+        padding: 30px 0;
+    }
+    main .burger__cards p{
+        text-align: start;
+    }
+}
+
+/* for dastop*/
+
+@media(min-width: 1200px) and (max-width: 1400px){
+
+}
